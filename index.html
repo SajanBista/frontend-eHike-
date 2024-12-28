@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hike_GEAR_Nepal</title>
+    <link rel="stylesheet" href="stylesheet.css">
+ 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+</head>
+<body>
+                <!--NAV BAR   -->
+    <div class="navbar">
+        <img src="logo11.jpeg" alt="" class="logo">
+        <div class="menu">
+            <a href="index.html">Home</a>
+            <a href="about_us.html">About</a>
+            <a href="Contact.html">Contact</a>
+            
+        </div>
+        <div class="search-container">
+            <div class="search-container">
+                <input type="text" placeholder="Search..." id="search-box">
+            </div>
+        </div>
+       
+         <a href = "loginform.html" target="_blank" classs="login-btn">Login</a>
+    </div>
+
+
+
+<!-- W3 SCHOOLL SLIDER  -->
+ 
+
+<div class="slideshow-container">
+ 
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="pana2.jpg" style="width:100%">
+ 
+</div>
+ 
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="pana1.jpg" style="width:100%">
+ 
+</div>
+ 
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="pana3.jpg" style="width:100%">
+ 
+</div>
+ 
+</div>
+<br>
+ 
+<div style="text-align:center">
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+</div>
+ 
+
+<!-- W3 SLIDER ENDS HEAR  -->
+   
+ 
+<!-- slider image ends hear  -->
+ 
+<!-- shop section  -->
+ 
+<div class="item-section">
+    <div class="box" data-item-id="1" data-price="150">
+        <h2>Hiking bag</h2>
+        <img src="bag.jpg" alt="">
+        <label for="rental-days-1">Number of Days:</label>
+        <input type="number" id="rental-days-1" value="1" min="1" onchange="updatePrice(this)">
+        <p>Price per day: NPR <span class="price-per-day">150</span></p>
+        <p>Total Price: NPR <span class="total-price">150</span></p>
+        <div class="terms-checkbox">
+            <input type="checkbox" id="terms-1">
+            <label for="terms-1">I agree to the <a href="term_and_condition.html" target="_blank">Terms and Conditions</a></label>
+        </div>
+
+        <button class="rent-btn" data-item-id="1">Rent</button>
+    </div>
+
+    <div class="box" data-item-id="2" data-price="50">
+        <h2>Sunglass</h2>
+        <label for="rental-days-2">Number of Days:</label>
+        <input type="number" id="rental-days-2" value="1" min="1" onchange="updatePrice(this)">
+        <p>Price per day: NPR <span class="price-per-day">50</span></p>
+        <p>Total Price: NPR <span class="total-price">50</span></p>
+        <div class="terms-checkbox">
+            <input type="checkbox" id="terms-1">
+            <label for="terms-1">I agree to the <a href="term_and_condition.html" target="_blank">Terms and Conditions</a></label>
+        </div>
+
+        <button class="rent-btn" data-item-id="2">Rent</button>
+    </div>
+
+    <div class="box" data-item-id="3" data-price="25">
+        <h2>Bottle</h2>
+        <img src="bottle.jpg" alt="">
+        <label for="rental-days-3">Number of Days:</label>
+        <input type="number" id="rental-days-3" value="1" min="1" onchange="updatePrice(this)">
+        <p>Price per day: NPR <span class="price-per-day">25</span></p>
+        <p>Total Price: NPR <span class="total-price">25</span></p>
+        <div class="terms-checkbox">
+            <input type="checkbox" id="terms-1">
+            <label for="terms-1">I agree to the <a href="term_and_condition.html" target="_blank">Terms and Conditions</a></label>
+        </div>
+
+        <button class="rent-btn" data-item-id="3">Rent</button>
+    </div>
+    </div>
+<!-- second row  -->
+ 
+<div class="item-section">
+    <div class="box" data-item-id="1" data-price="150">
+        <h2>Hiking bag</h2>
+        <img src="bag.jpg" alt="">
+        <label for="rental-days-1">Number of Days:</label>
+        <input type="number" id="rental-days-1" value="1" min="1" onchange="updatePrice(this)">
+        <p>Price per day: NPR <span class="price-per-day">150</span></p>
+        <p>Total Price: NPR <span class="total-price">150</span></p>
+        <div class="terms-checkbox">
+            <input type="checkbox" id="terms-1">
+            <label for="terms-1">I agree to the <a href="term_and_condition.html" target="_blank">Terms and Conditions</a></label>
+        </div>
+
+        <button class="rent-btn" data-item-id="1">Rent</button>
+    </div>
+
+    <div class="box" data-item-id="2" data-price="50">
+        <h2>Sunglass</h2>
+        <label for="rental-days-2">Number of Days:</label>
+        <input type="number" id="rental-days-2" value="1" min="1" onchange="updatePrice(this)">
+        <p>Price per day: NPR <span class="price-per-day">50</span></p>
+        <p>Total Price: NPR <span class="total-price">50</span></p>
+        <div class="terms-checkbox">
+            <input type="checkbox" id="terms-1">
+            <label for="terms-1">I agree to the <a href="term_and_condition.html" target="_blank">Terms and Conditions</a></label>
+        </div>
+
+        <a href = "loginform.html" target="_blank" classs="login-btn">Rent</a>
+    </div>
+
+    <div class="box" data-item-id="3" data-price="25">
+        <h2>Bottle</h2>
+        <img src="bottle.jpg" alt="">
+        <label for="rental-days-3">Number of Days:</label>
+        <input type="number" id="rental-days-3" value="1" min="1" onchange="updatePrice(this)">
+        <p>Price per day: NPR <span class="price-per-day">25</span></p>
+        <p>Total Price: NPR <span class="total-price">25</span></p>
+        <div class="terms-checkbox">
+            <input type="checkbox" id="terms-1">
+            <label for="terms-1">I agree to the <a href="term_and_condition.html" target="_blank">Terms and Conditions</a></label>
+        </div>
+
+        <a href = "loginform.html" target="_blank" classs="login-btn">Rent</a>
+    </div>
+    </div>
+
+<!-- row third  -->
+<div class="item-section">
+    <div class="box" data-item-id="1" data-price="150">
+        <h2>Hiking bag</h2>
+        <img src="bag.jpg" alt="">
+        <label for="rental-days-1">Number of Days:</label>
+        <input type="number" id="rental-days-1" value="1" min="1" onchange="updatePrice(this)">
+        <p>Price per day: NPR <span class="price-per-day">150</span></p>
+        <p>Total Price: NPR <span class="total-price">150</span></p>
+        <div class="terms-checkbox">
+            <input type="checkbox" id="terms-1">
+            <label for="terms-1">I agree to the <a href="term_and_condition.html" target="_blank">Terms and Conditions</a></label>
+        </div>
+
+        <a href = "loginform.html" target="_blank" classs="login-btn">Rent</a>
+    </div>
+
+    <div class="box" data-item-id="2" data-price="50">
+        <h2>Sunglass</h2>
+        <label for="rental-days-2">Number of Days:</label>
+        <input type="number" id="rental-days-2" value="1" min="1" onchange="updatePrice(this)">
+        <p>Price per day: NPR <span class="price-per-day">50</span></p>
+        <p>Total Price: NPR <span class="total-price">50</span></p>
+        <div class="terms-checkbox">
+            <input type="checkbox" id="terms-1">
+            <label for="terms-1">I agree to the <a href="term_and_condition.html" target="_blank">Terms and Conditions</a></label>
+        </div>
+
+        <a href = "loginform.html" target="_blank" classs="login-btn">Rent</a>
+    </div>
+
+    <div class="box" data-item-id="3" data-price="25">
+        <h2>Bottle</h2>
+        <img src="bottle.jpg" alt="">
+        <label for="rental-days-3">Number of Days:</label>
+        <input type="number" id="rental-days-3" value="1" min="1" onchange="updatePrice(this)">
+        <p>Price per day: NPR <span class="price-per-day">25</span></p>
+        <p>Total Price: NPR <span class="total-price">25</span></p>
+        <div class="terms-checkbox">
+            <input type="checkbox" id="terms-1">
+            <label for="terms-1">I agree to the <a href="term_and_condition.html" target="_blank">Terms and Conditions</a></label>
+        </div>
+
+        <a href = "loginform.html" target="_blank" classs="login-btn">Rent</a>
+    </div>
+      
+</div>
+ 
+
+<!--  footer  -->
+<footer style="background-color: #333; color: #fff; padding: 20px; text-align: center;">
+    <div style="max-width: 1200px; margin: 0 auto;">
+        <!-- About Section -->
+        <div style="margin-bottom: 20px;">
+            <a href="about_us.html"><h1>About Us</h1></a>
+            <p>Welcome to Hike Nepal, your one-stop destination for all trekking and hiking gear. We provide top-quality equipment for purchase, rent, and more!</p>
+        </div>
+ 
+        <!-- Links Section -->
+        <div style="display: flex; justify-content: space-around; flex-wrap: wrap;">
+            <div style="margin-bottom: 10px;">
+                <h4>Shop</h4>
+                <ul style="list-style-type: none; padding: 0;">
+                    <li><a href="/shop/new" style="color: #fff; text-decoration: none;">New Arrivals</a></li>
+                    <li><a href="/shop/used" style="color: #fff; text-decoration: none;">Used Gear</a></li>
+                    <li><a href="/shop/rentals" style="color: #fff; text-decoration: none;">Rentals</a></li>
+                    <li><a href="/shop/prebook" style="color: #fff; text-decoration: none;">Pre-book Treks</a></li>
+                </ul>
+            </div>
+            <div style="margin-bottom: 10px;">
+                <h4>Customer Service</h4>
+                <ul style="list-style-type: none; padding: 0;">
+                    <li><a href="contact.html" style="color: #fff; text-decoration: none;">Contact Us</a></li>
+                    <li><a href="Hikegear_nepal.html" style="color: #fff; text-decoration: none;">FAQ</a></li>
+                    <li><a href="Hikegear_nepal.html" style="color: #fff; text-decoration: none;">Returns & Refunds</a></li>
+                    <li><a href="Hikegear_nepal.html" style="color: #fff; text-decoration: none;">Shipping Info</a></li>
+                </ul>
+            </div>
+            <div style="margin-bottom: 10px;">
+                <h4>Legal</h4>
+                <ul style="list-style-type: none; padding: 0;">
+                    <li><a href="term_and_condition.html" style="color: #fff; text-decoration: none;">Terms of Service</a></li>
+                    <li><a href="Hikegear_nepal.html" style="color: #fff; text-decoration: none;">Privacy Policy</a></li>
+                    <li><a href="Hikegear_nepal.html" style="color: #fff; text-decoration: none;">Cookie Policy</a></li>
+                </ul>
+            </div>
+        </div>
+ 
+        <!-- Social Media Section -->
+        <div style="margin-top: 20px;">
+            <h4>Follow Us</h4>
+            <a href="https://www.facebook.com" style="color: #fff; margin-right: 10px; text-decoration: none;">Facebook</a>
+            <a href="https://www.instagram.com" style="color: #fff; margin-right: 10px; text-decoration: none;">Instagram</a>
+            <a href="https://www.twitter.com" style="color: #fff; text-decoration: none;">Twitter</a>
+        </div>
+ 
+        <!-- Copyright Section -->
+        <div style="margin-top: 20px;">
+            <p>&copy; 2024 Hike Nepal. All Rights Reserved.</p>
+            <p>Designed and Developed by [Sidhartha sahani & Sajan Bista]</p>
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+
+
+  <!-- JAVA SCRIPT FILE  -->
+<SCRipt src="script.js"></SCRipt>
+</body>
+</html>
+ 
+ 
